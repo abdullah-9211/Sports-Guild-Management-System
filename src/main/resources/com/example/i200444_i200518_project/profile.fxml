@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="720.0" style="-fx-background-color: #3f4044;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.i200444_i200518_project.Profile">
+   <children>
+      <Label fx:id="user_name" alignment="CENTER" contentDisplay="CENTER" layoutX="297.0" layoutY="238.0" prefHeight="46.0" prefWidth="260.0" text="Ol Mcdonald" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_phone" alignment="CENTER" contentDisplay="CENTER" layoutX="297.0" layoutY="328.0" prefHeight="46.0" prefWidth="326.0" text="+92 312 23144674" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <Label fx:id="user_desc" alignment="CENTER" contentDisplay="CENTER" layoutX="274.0" layoutY="524.0" prefHeight="46.0" prefWidth="326.0" text="Administrator" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <StackPane layoutY="220.0" prefHeight="83.0" prefWidth="296.0">
+         <children>
+            <Polygon fill="#5c5d61" points="175.20001220703125, 18.0, -50.0, 18.0, -50.0, -41.20000457763672, 175.20001220703125, -41.20000457763672, 246.39996337890625, -14.0" stroke="#e4e4e4" strokeType="INSIDE" strokeWidth="0.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="54.0" prefWidth="158.0" style="-fx-background-color: #5c5d61;" text="Name" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane layoutY="310.0" prefHeight="83.0" prefWidth="296.0">
+         <children>
+            <Polygon fill="#5c5d61" points="175.20001220703125, 18.0, -50.0, 18.0, -50.0, -41.20000457763672, 175.20001220703125, -41.20000457763672, 246.39996337890625, -14.0" stroke="#e4e4e4" strokeType="INSIDE" strokeWidth="0.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="54.0" prefWidth="158.0" style="-fx-background-color: #5c5d61;" text="CNIC" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <StackPane layoutY="402.0" prefHeight="83.0" prefWidth="296.0">
+         <children>
+            <Polygon fill="#5c5d61" points="175.20001220703125, 18.0, -50.0, 18.0, -50.0, -41.20000457763672, 175.20001220703125, -41.20000457763672, 246.39996337890625, -14.0" stroke="#e4e4e4" strokeType="INSIDE" strokeWidth="0.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="54.0" prefWidth="158.0" style="-fx-background-color: #5c5d61;" text="Roll Number" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <Label fx:id="user_rollnum" alignment="CENTER" contentDisplay="CENTER" layoutX="297.0" layoutY="420.0" prefHeight="46.0" prefWidth="214.0" text="20i-0518" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+      <StackPane layoutY="506.0" prefHeight="83.0" prefWidth="296.0">
+         <children>
+            <Polygon fill="#5c5d61" points="175.20001220703125, 18.0, -50.0, 18.0, -50.0, -41.20000457763672, 175.20001220703125, -41.20000457763672, 246.39996337890625, -14.0" stroke="#e4e4e4" strokeType="INSIDE" strokeWidth="0.0" />
+            <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="54.0" prefWidth="158.0" style="-fx-background-color: #5c5d61;" text="Post" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Label>
+         </children>
+      </StackPane>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="284.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@profile-user.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

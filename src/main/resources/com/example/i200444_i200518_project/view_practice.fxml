@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="640.0" prefWidth="655.0" style="-fx-background-color: #3f4044;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.i200444_i200518_project.ViewPractice">
+   <children>
+      <HBox layoutX="22.0" layoutY="24.0" prefHeight="590.0" prefWidth="616.0">
+         <children>
+            <VBox prefHeight="590.0" prefWidth="217.0">
+               <children>
+                  <Label alignment="CENTER" prefHeight="82.0" prefWidth="217.0" text="Sport:" textFill="WHITE">
+                     <font>
+                        <Font name="Verdana Italic" size="47.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="50.0" left="10.0" right="10.0" top="35.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="82.0" prefWidth="217.0" text="Captain:" textFill="WHITE">
+                     <font>
+                        <Font name="Verdana Italic" size="46.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="50.0" left="10.0" right="10.0" top="35.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="10.0" layoutY="112.0" prefHeight="82.0" prefWidth="217.0" text="Day(s):" textFill="WHITE">
+                     <font>
+                        <Font name="Verdana Italic" size="47.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="50.0" left="10.0" right="10.0" top="35.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="10.0" layoutY="214.0" prefHeight="82.0" prefWidth="217.0" text="Time:" textFill="WHITE">
+                     <font>
+                        <Font name="Verdana Italic" size="47.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="50.0" left="10.0" right="10.0" top="35.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+            <VBox prefHeight="590.0" prefWidth="398.0">
+               <children>
+                  <Label fx:id="sport" prefHeight="147.0" prefWidth="398.0" text="Basketball" textFill="WHITE">
+                     <font>
+                        <Font name="Verdana" size="47.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="50.0" left="10.0" right="10.0" top="35.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="captain" layoutX="10.0" layoutY="10.0" prefHeight="147.0" prefWidth="398.0" text="Nisar Mehmood" textFill="WHITE">
+                     <font>
+                        <Font name="Verdana" size="35.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="50.0" left="10.0" right="10.0" top="35.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="days" layoutX="10.0" layoutY="157.0" prefHeight="147.0" prefWidth="398.0" text="Tuesday, Thursday" textFill="WHITE">
+                     <font>
+                        <Font name="Verdana" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="50.0" left="10.0" right="10.0" top="35.0" />
+                     </padding>
+                  </Label>
+                  <Label fx:id="time" layoutX="10.0" layoutY="304.0" prefHeight="147.0" prefWidth="398.0" text="5:30 PM" textFill="WHITE">
+                     <font>
+                        <Font name="Verdana" size="18.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="50.0" left="10.0" right="10.0" top="35.0" />
+                     </padding>
+                  </Label>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

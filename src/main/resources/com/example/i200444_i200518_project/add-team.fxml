@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="655.0" style="-fx-background-color: #3f4044;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.i200444_i200518_project.AddTeam">
+    <children>
+        <ImageView fitHeight="184.0" fitWidth="204.0" layoutX="250.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@guild_logo.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="teamname" alignment="CENTER" layoutX="165.0" layoutY="241.0" prefHeight="38.0" prefWidth="356.0" promptText="Team Name" style="-fx-background-color: #5c5d61; -fx-text-fill: #fff;">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <Button fx:id="submit_btn" layoutX="280.0" layoutY="572.0" mnemonicParsing="false" onAction="#execButton" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #5c5d61; -fx-font-weight: bold; -fx-background-radius: 1em;" text="Add" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <Label layoutX="16.0" layoutY="80.0" text="Register" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="48.0" />
+            </font>
+        </Label>
+        <Label layoutX="514.0" layoutY="80.0" text="Team" textFill="WHITE">
+            <font>
+                <Font name="Arial Bold" size="48.0" />
+            </font>
+        </Label>
+      <Label layoutX="258.0" layoutY="322.0" text="Team Members" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="24.0" />
+         </font>
+      </Label>
+      <ListView fx:id="member_list" layoutX="165.0" layoutY="359.0" prefHeight="200.0" prefWidth="356.0" stylesheets="@list_style.css" />
+    </children>
+</AnchorPane>

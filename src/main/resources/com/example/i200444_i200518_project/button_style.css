@@ -1,0 +1,21 @@
+.button {
+    -fx-background-color: #5c5d61;
+}
+.button:hover {
+    -fx-background-color:  #3b3a3b;
+}
+.button:pressed {
+    -fx-background-color:  #3f4044;
+}
+
+
+.bottomTab{
+    -fx-background-color: #5c5d61;
+    -fx-border-radius: 0,0,10,10;
+}
+.bottomTab:hover{
+    -fx-background-color: #3b3a3b;
+}
+.bottomTab:pressed{
+    -fx-background-color: #3f4044;
+}

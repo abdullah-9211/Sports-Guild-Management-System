@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="640.0" prefWidth="900.0" style="-fx-background-color: #3f4044;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.i200444_i200518_project.Login">
+    <children>
+        <ImageView fitHeight="184.0" fitWidth="204.0" layoutX="371.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@guild_logo.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="username" alignment="CENTER" layoutX="281.0" layoutY="282.0" prefHeight="38.0" prefWidth="356.0" promptText="Username" style="-fx-background-color: #5c5d61; -fx-text-fill: #fff;">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <Button fx:id="submit_btn" layoutX="396.0" layoutY="452.0" mnemonicParsing="false" onAction="#execButton" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #5c5d61; -fx-font-weight: bold; -fx-background-radius: 1em;" text="Sign In" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+      <PasswordField fx:id="pass" alignment="CENTER" layoutX="282.0" layoutY="353.0" prefHeight="40.0" prefWidth="356.0" promptText="Password" style="-fx-background-color: #5c5d61; -fx-text-fill: #fff;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </PasswordField>
+    </children>
+</AnchorPane>

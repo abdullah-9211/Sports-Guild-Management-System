@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="640.0" prefWidth="655.0" style="-fx-background-color: #3f4044;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.i200444_i200518_project.ViewAttendance">
+   <children>
+      <Label fx:id="progressLabel" layoutX="214.0" layoutY="32.0" prefHeight="174.0" prefWidth="276.0" text="80%" textFill="#2ca141">
+         <font>
+            <Font name="Verdana" size="92.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progressBar" layoutX="215.0" layoutY="235.0" prefHeight="40.0" prefWidth="225.0" progress="0.0" />
+      <TableView fx:id="attendanceTableView" layoutX="215.0" layoutY="338.0" prefHeight="200.0" prefWidth="225.0" stylesheets="@table_style.css">
+        <columns>
+          <TableColumn fx:id="practiceDate" prefWidth="110.0" text="Date" />
+          <TableColumn fx:id="isPresentCol" prefWidth="113.0" text="Present" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

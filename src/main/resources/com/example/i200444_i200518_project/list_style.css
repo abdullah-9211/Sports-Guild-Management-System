@@ -1,0 +1,22 @@
+.list-view {
+    -fx-background-color: #5c5d61;
+    -fx-border-color: #000000;
+    -fx-text-fill: #ffffff;
+}
+
+.list-view.list-cell {
+    -fx-text-fill: #ffffff;
+}
+
+.list-cell:even {
+    -fx-background-color: #5c5d61;
+    -fx-text-fill: #ffffff;
+}
+.list-cell:odd {
+    -fx-background-color: #3b3a3b;
+    -fx-text-fill: #ffffff;
+}
+.list-cell:empty {
+    -fx-background-color: #3f4044;
+    -fx-text-fill: #ffffff;
+}

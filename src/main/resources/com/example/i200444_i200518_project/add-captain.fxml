@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="655.0" style="-fx-background-color: #3f4044;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.i200444_i200518_project.AddCaptain">
+    <children>
+        <ImageView fitHeight="184.0" fitWidth="204.0" layoutX="236.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@guild_logo.png" />
+            </image>
+        </ImageView>
+        <TextField fx:id="username" alignment="CENTER" layoutX="151.0" layoutY="225.0" prefHeight="38.0" prefWidth="356.0" promptText="Username" style="-fx-background-color: #5c5d61; -fx-text-fill: #fff;">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="cnic" alignment="CENTER" layoutX="151.0" layoutY="280.0" prefHeight="38.0" prefWidth="356.0" promptText="CNIC" style="-fx-background-color: #5c5d61; -fx-text-fill: #fff;">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="rollnum" alignment="CENTER" layoutX="151.0" layoutY="334.0" prefHeight="38.0" prefWidth="356.0" promptText="Roll Number" style="-fx-background-color: #5c5d61; -fx-text-fill: #fff;">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+        <Button fx:id="submit_btn" layoutX="266.0" layoutY="574.0" mnemonicParsing="false" onAction="#execButton" prefHeight="50.0" prefWidth="125.0" style="-fx-background-color: #5c5d61; -fx-font-weight: bold; -fx-background-radius: 1em;" text="Add" textFill="WHITE">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Button>
+        <TextField fx:id="pass" alignment="CENTER" layoutX="151.0" layoutY="387.0" prefHeight="40.0" prefWidth="356.0" promptText="Password" style="-fx-text-fill: #fff; -fx-background-color: #5c5d61;">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </TextField>
+      <TextField fx:id="kit_num" alignment="CENTER" layoutX="151.0" layoutY="443.0" prefHeight="40.0" prefWidth="356.0" promptText="Kit Number" style="-fx-background-color: #5c5d61; -fx-text-fill: #fff;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="sport" alignment="CENTER" layoutX="151.0" layoutY="498.0" prefHeight="40.0" prefWidth="356.0" promptText="Sport" style="-fx-text-fill: #fff; -fx-background-color: #5c5d61;">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Label layoutX="2.0" layoutY="78.0" text="Register" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="477.0" layoutY="78.0" text="Captain" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="48.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
