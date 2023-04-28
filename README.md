@@ -14,4 +14,4 @@ Desktop Application to manage all the sport teams of a university
 - Teammates can view announcements, meetings and fixture dates and venues which their captain added.
 - Teammates can view their attendance percentage as well.
 
-All these users have their own dashboards containing their operations which they can perform. Users are divided according to their seniority and sports which they play.
+All these users have their own dashboards containing their operations which they can perform. Users are divided according to their seniority and sports which they play with every username having their own username and password.
